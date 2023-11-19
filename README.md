@@ -1,9 +1,7 @@
 # Playtech_internship
 Playtech Winternship betting data processor.
 
-# Introduction
-
-Description
+# Description
 · All operations in this assignment are instant.
 · There will be more than one player and match.
 · Player operations and match results are ordered by time, older events come first.
@@ -23,14 +21,14 @@ o Draw: Match ended in a draw
 · Each player and match have their own unique Id’s.
 · All calculated coin results are integers and always rounded down.
 
-Rules
+# Rules
 · Your program will need to read input from two files inside your projects resource folder: “player_data.txt” and “match_data.txt”.
 · Player_data.txt file contains info about player actions.
 · Match_data.txt has data about matches between A and B sides.
 · The program will produce and write results into a single text file, “result.txt” in the same location with the Main class.
 · Coin numbers in transactions are int type, account balance values are long.
 
-Input data
+# Input data
 · Input data is provided in text file.
 · One line contains info about only one action.
 · Data in input file is grouped by player UID.
@@ -56,7 +54,7 @@ o Second value is the return rate for A side.
 o Third value is the return rate for B side
 o Fourth value is the result of the match.
 
-Output data
+# Output data
 In the results.txt file there are 3 expected result groups separated by empty line between each group. Results.txt file should be written into the same directory as your Main class:
 · List of all legitimate player IDs followed with their final balance and their betting win rate (Win rate is calculated by number of won game / number of placed bets)
 o Example: 163f23ed-e9a9-4e54-a5b1-4e1fc86f12f4 4321 0,80
